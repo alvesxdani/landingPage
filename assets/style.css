@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+.title1 {
+    position: absolute;
+    top: 150px;
+    margin: 0 auto;
+    color: #fff;
+    font: italic 30px 'Georgia';
+    font-weight: bold;
+    z-index: 9000;
+}
