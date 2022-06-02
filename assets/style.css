@@ -2,6 +2,7 @@ body {
     margin: 0;
 }
 
+
 .bgWhite {
     background: rgba(0 ,0 , 0, 0.1);
     backdrop-filter: blur(40px);
@@ -54,3 +55,15 @@ body {
   .minH {
       min-height: 300px;
   }
+
+
+.title1 {
+    position: absolute;
+    top: 150px;
+    margin: 0 auto;
+    color: #fff;
+    font: italic 30px 'Georgia';
+    font-weight: bold;
+    z-index: 9000;
+}
+
