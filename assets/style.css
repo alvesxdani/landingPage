@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+.bgWhite {
+    background: rgba(0 ,0 , 0, 0.1);
+    backdrop-filter: blur(40px);
+    z-index: 99999;
+}
+
+.bgWhite a {
+    color:#fff !important;
+}
+
+.bgWhite a:hover {
+    color: #ffce83 !important;
+}
+
+.title1 {
+    top: 200px;
+    color: #fff;
+    font: italic 40px 'Georgia';
+    font-weight: bold;
+    z-index: 9000;
+}
+
+.titlePage {
+    font: italic 20px 'Georgia';
+    font-weight: bold;
+}
+
+.linkUnder span {
+    display: inline-block;
+  }
+  
+  .linkUnder span::after
+  {
+    content: '';
+    height: 7px;
+    background: rgb(255, 217, 0);
+    border-radius: 5px;
+    display: block;
+    margin-top:-10px;
+  }
+
+  .textCentered {
+    position: absolute;
+    width: 90%;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .minH {
+      min-height: 300px;
+  }
