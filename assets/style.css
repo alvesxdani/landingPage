@@ -67,3 +67,13 @@ body {
     z-index: 9000;
 }
 
+.bg-footer {
+    background: #90d4c5;
+    color: #256e5d;
+}
+
+.bg-footer h2 {
+    font: italic 35px 'Georgia',sans-serif;
+    font-weight: bold;
+}
+
